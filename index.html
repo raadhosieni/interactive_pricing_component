@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+  <!-- Style File -->
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <div class="heading">
+    <h2>Simple, traffic-based pricing</h2>
+    <p>Sign-up for our 30-day trial. No credit card required.</p>
+  </div>
+  <div class="container">
+    <div class="card">
+      <div class="caption">
+        <span class="number">100k</span>
+        <label for="">Pageviews</label>
+      </div>
+      <div class="slidecontainer">
+        <input type="range" min="0" step="1" max="4" value="2" class="slider" id="myRange">
+      </div>
+      <div class="plan">
+        <span>16.00</span>
+        <label for="">/ month</label>
+      </div>  
+    </div>
+    <div class="options">
+      <span>Monthly Billing</span> 
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+      <span>Yearly Billing</span> 
+      <span class="discount">25% <span class="disc">discount</span></span>
+    </div>
+    <div class="card">
+      <ul class="features">
+        <li>Unlimited websites</li>
+        <li>100% data ownership</li>
+        <li>Email reports</li>
+      </ul>
+      <span class="btn">Start my trial</span>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Raad Abu Hosieni</a>.
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
